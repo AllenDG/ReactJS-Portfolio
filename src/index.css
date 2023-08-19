@@ -1,0 +1,182 @@
+
+
+.hero {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+ 
+
+}
+
+
+
+
+.navbar{
+  background-color: rgba(255, 255, 255, 0);
+  
+  
+}
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -15px;
+}
+
+.custom-card {
+  width: calc(33.33% - 30px);
+  margin: 15px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.custom-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgb(255, 255, 255);
+}
+
+.card-image {
+  border-radius: 20px 20px 0 0;
+}
+
+
+.skills__container {
+  row-gap: 2rem;
+  text-align: center;
+}
+
+.skills__subtitle {
+  margin-bottom: var(--mb-2);
+}
+
+.skills__text {
+  margin-bottom: var(--mb-4);
+}
+
+.skills__data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-weight: var(--font-semi);
+  padding: .5rem 1rem;
+  margin-bottom: var(--mb-4);
+  border-radius: .5rem;
+  box-shadow: 0px 4px 25px rgb(51, 51, 51);
+}
+
+.skills__icon {
+  font-size: 2rem;
+  margin-right: var(--mb-2);
+  color: var(--first-color);
+}
+
+.skills__names {
+  display: flex;
+  align-items: center;
+}
+
+.skills__bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #cca113;
+  height: .30rem;
+  width: 10px;
+  border-radius: .5rem;
+  z-index: var(--z-back);
+}
+
+.skills__html {
+  width: 50%;
+}
+
+.skills__css {
+  width: 60%;
+}
+
+.skills__js {
+  width: 90%;
+}
+
+.skills__ux {
+  width: 30%;
+}
+
+.skills__img {
+  border-radius: .5rem;
+}
+
+/* Footer */
+/* --------- */
+.footer {
+  background-color:#191c2e;
+  bottom: 0 !important;
+  padding-bottom: 8px !important ;
+  
+}
+.footer-copywright {
+  text-align: center !important;
+  margin-left: 65vh;
+}
+
+.footer-body {  
+  z-index: 1;
+  text-align: center !important;
+}
+
+/* Media */
+@media (max-width: 767px) {
+
+  
+
+  .footer-copywright,
+  .footer-body {
+    text-align: center;
+    margin: 0;
+  }
+  .footer{
+    margin-top: 20vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-copywright,
+  .footer-body{
+    text-align: center;
+    margin: 0;
+  }
+  .photo{
+    width: 100px;
+    height: 100px;
+   }
+}
+
+@media (max-width: 320px) {
+  .footer-copywright,
+  .footer-body {
+    text-align: center;
+    margin: 0;
+  }
+}
+
+.footer h2 {
+    
+  color: #ffffff !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+.footer h6 {
+
+  color: #ffffff !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+
+
+.blockquote-footer {
+  color: #ffffff !important;
+}
+
